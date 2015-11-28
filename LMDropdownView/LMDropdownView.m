@@ -103,7 +103,7 @@
 
 - (void)showFromNavigationController:(UINavigationController *)navigationController withContentView:(UIView *)contentView
 {
-    [self showInView:navigationController.visibleViewController.view withContentView:contentView atOrigin:CGPointZero];
+    [self showInView:navigationController.visibleViewController.view withContentView:contentView atOrigin:CGPointMake(0, 64)];
 }
 
 - (void)hide
